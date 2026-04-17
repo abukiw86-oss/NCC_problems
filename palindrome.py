@@ -7,5 +7,5 @@ def isPalindrome(x: int) -> bool:
         x //= 10 
     return x == reversed_half or x == reversed_half // 10
 
-print(isPalindrome(1221)) jk
+print(isPalindrome(1221)) 
 # this must print true
